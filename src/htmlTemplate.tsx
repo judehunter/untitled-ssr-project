@@ -10,7 +10,7 @@ export const html = () => `
     </head>
     <body>
       <div id="app"><!--app-html--></div>
-      <script type="module" src="${relPathFromCwd('./src/entry-client.tsx')}"></script>
+      <script type="module" src="/${relPathFromCwd('./src/entry-client.tsx')}"></script>
     </body>
   </html>
 `
